@@ -13,5 +13,5 @@
 
 ## TODO
 
-The repo is still being under construction, thanks for your patience. 
+The repo is still under construction, thanks for your patience. 
 - [ ] Release of the sampling code.
