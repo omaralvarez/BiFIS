@@ -5,13 +5,13 @@
 
 **Code coming soon.**
 
-## News
+## 📢 News
 
 ### March 2025
 
 - Code coming soon.
 
-## TODO
+## 🎯 TODO
 
 The repo is still under construction, thanks for your patience. 
 - [ ] Release of the sampling code.
