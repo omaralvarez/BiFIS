@@ -96,10 +96,10 @@ bifis = BiFIS(config, args.resolution[0], args.resolution[1], np.arange(len(cell
 bifis.show(cell_centers[:, 0], cell_centers[:, 1], write=False)
 
 # Use resulting grid
-interp_var_dens = griddata((cell_centers[:, 0], cell_centers[:, 1]), p_original, (variable_density.grid_x, variable_density.grid_y), method=interpolation_method)
+var_dens_pixel_data = griddata((cell_centers[:, 0], cell_centers[:, 1]), p_original, (variable_density.grid_x, variable_density.grid_y), method=interpolation_method)
 
 # BiFIS uses cell ids instead of interpolation to get pixel data
-fields_b_i = p_original[bifis.idx].reshape(bifis.img_shape)
+bifis_pixel_data = p_original[bifis.idx].reshape(bifis.img_shape)
 ```
 
 ## 📢 News
