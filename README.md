@@ -7,6 +7,10 @@
 
 ## 📢 News
 
+### May 2025
+
+- Initial code version published.
+
 ### March 2025
 
 - Code coming soon.
@@ -14,4 +18,4 @@
 ## 🎯 TODO
 
 The repo is still under construction, thanks for your patience. 
-- [ ] Release of the sampling code.
+- [x] Release of the sampling code.
