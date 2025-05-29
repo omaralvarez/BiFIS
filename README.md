@@ -25,7 +25,55 @@ The `bifis` library is available using pip. We recommend using a virtual environ
 pip install bifis
 ```
 
+To run the demo:
+
+```bash
+python main.py -c configs/toy_case.json
+```
+
+To create a conda env for development:
+
+```bash
+conda env create -f environment.yaml
+```
+
 ### Example
+
+Sample configuration:
+
+```json
+{
+    "domain": [
+        0.0,
+        1.0,
+        0.0,
+        1.0
+    ],
+    "counts": [
+        [
+            4,
+            72,
+            4
+        ],
+        [
+            8,
+            24,
+            8
+        ]
+    ],
+    "roi": [
+        0.15,
+        0.85,
+        0.25,
+        0.75
+    ],
+    "preserve_surface": false
+}
+```
+
+`domain` is an array containing `xmin`, `xmax`, `ymin`, `ymax`. `counts` contains the number of samples per section when using `VariableDensity`. `roi` represents the min and max coordinates of each dimension, it follows the `domain` convention. `preserve_surface` lets the user choose to always preserve samples that belong to the surface of interest and choose the rest using the SDF.
+
+Sample run script:
 
 ```python
 from bifis.utils import Config, console
@@ -35,20 +83,20 @@ from scipy.interpolate import griddata
 # Load configuration
 config = Config("config.json")
 
-# Build toy deck
-points, deck, path = build_toy_deck()
+# Get simulation data
+cell_centers, surface = ...
 
-uniform = Uniform(config, args.resolution[0], args.resolution[1], np.arange(len(points)))
-uniform.show(points[:, 0], points[:, 1], write=False)
+uniform = Uniform(config, args.resolution[0], args.resolution[1], np.arange(len(cell_centers)))
+uniform.show(cell_centers[:, 0], cell_centers[:, 1], write=False)
 
-variable_density = VariableDensity(config, args.resolution[0], args.resolution[1], np.arange(len(points)))
-variable_density.show(points[:, 0], points[:, 1], write=False)
+variable_density = VariableDensity(config, args.resolution[0], args.resolution[1], np.arange(len(cell_centers)))
+variable_density.show(cell_centers[:, 0], cell_centers[:, 1], write=False)
 
-bifis = BiFIS(config, args.resolution[0], args.resolution[1], np.arange(len(points)), samples=points, surface=deck, surface_idx=np.arange(len(deck)))
-bifis.show(points[:, 0], points[:, 1], write=False)
+bifis = BiFIS(config, args.resolution[0], args.resolution[1], np.arange(len(cell_centers)), samples=cell_centers, surface=surface, surface_idx=np.arange(len(surface)))
+bifis.show(cell_centers[:, 0], cell_centers[:, 1], write=False)
 
 # Use resulting grid
-interp_var_dens = griddata((points[:, 0], points[:, 1]), p_original, (variable_density.grid_x, variable_density.grid_y), method=interpolation_method)
+interp_var_dens = griddata((cell_centers[:, 0], cell_centers[:, 1]), p_original, (variable_density.grid_x, variable_density.grid_y), method=interpolation_method)
 
 # BiFIS uses cell ids instead of interpolation to get pixel data
 fields_b_i = p_original[bifis.idx].reshape(bifis.img_shape)
