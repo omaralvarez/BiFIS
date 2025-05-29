@@ -71,7 +71,7 @@ Sample configuration:
 }
 ```
 
-`domain` is an array containing `xmin`, `xmax`, `ymin`, `ymax`. `counts` contains the number of samples per section when using `VariableDensity`. `roi` represents the min and max coordinates of each dimension, it follows the `domain` convention. `preserve_surface` lets the user choose to always preserve samples that belong to the surface of interest and choose the rest using the SDF.
+`domain` is an array containing `xmin`, `xmax`, `ymin`, `ymax`. `counts` contains the number of samples per section and `roi` represents the min and max coordinates of each dimension (it follows the `domain` convention) when using `VariableDensity` sampling. `preserve_surface` lets the user choose to always preserve samples that belong to the surface of interest and choose the rest using the SDF.
 
 Sample run script:
 
