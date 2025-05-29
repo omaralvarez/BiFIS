@@ -18,4 +18,6 @@
 ## 🎯 TODO
 
 The repo is still under construction, thanks for your patience. 
+
+- [ ] Release pip package.
 - [x] Release of the sampling code.
