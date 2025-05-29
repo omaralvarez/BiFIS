@@ -12,8 +12,8 @@
 
 # 🌐 BiFIS
 
-[**Signed Distance Function-biased flow importance sampling for implicit neural compression**]()<br/>
-[Omar A. Mures](https://omaralv.com/), [Miguel Cid Montoya]()
+[**Signed Distance Function-biased flow importance sampling for implicit neural compression of flow fields**]()<br/>
+[Omar A. Mures](https://omaralv.com/), [Miguel Cid Montoya](https://mcidmontoya.com/)
 
 ## Usage
 
@@ -70,3 +70,18 @@ The repo is still under construction, thanks for your patience.
 
 - [ ] Release pip package.
 - [x] Release of the sampling code.
+
+## 📜 Citation
+
+```
+@Article{montoya2024aeroelastic,
+  author = {Mures, Omar A. and Cid Montoya, Miguel},
+  title = {Signed Distance Function-biased flow importance sampling for implicit neural compression of flow fields},
+  journal = {Computer-Aided Civil and Infrastructure Engineering},
+  volume = {n/a},
+  number = {n/a},
+  pages = {},
+  doi = {n/a},
+  url = {n/a},
+}
+```
