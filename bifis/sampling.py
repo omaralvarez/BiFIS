@@ -188,8 +188,6 @@ class Grid:
 
         self.img_x, self.img_y = np.meshgrid(self.x, self.y)
 
-        # ic(self.img_x, self.img_y)
-
         # NOTE Not sure if I used this anywhere else and it should not
         # be flattened
         self.img_x = self.img_x.flatten()
