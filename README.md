@@ -126,7 +126,7 @@ The repo is still under construction, thanks for your patience.
 ```
 @Article{montoya2024aeroelastic,
   author = {Mures, Omar A. and Cid Montoya, Miguel},
-  title = {Signed Distance Function-biased flow importance sampling for implicit neural compression of flow fields},
+  title = {Signed distance function-biased flow importance sampling for implicit neural compression of flow fields},
   journal = {Computer-Aided Civil and Infrastructure Engineering},
   volume = {40},
   number = {17},
