@@ -128,10 +128,10 @@ The repo is still under construction, thanks for your patience.
   author = {Mures, Omar A. and Cid Montoya, Miguel},
   title = {Signed Distance Function-biased flow importance sampling for implicit neural compression of flow fields},
   journal = {Computer-Aided Civil and Infrastructure Engineering},
-  volume = {n/a},
-  number = {n/a},
-  pages = {},
-  doi = {n/a},
-  url = {n/a},
+  volume = {40},
+  number = {17},
+  pages = {2434-2463},
+  doi = {10.1111/mice.13526},
+  url = {https://doi.org/10.1111/mice.13526},
 }
 ```
