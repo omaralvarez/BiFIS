@@ -106,6 +106,14 @@ var_dens_pixel_data = griddata((cell_centers[:, 0], cell_centers[:, 1]), p_origi
 bifis_pixel_data = p_original[bifis.idx].reshape(bifis.img_shape)
 ```
 
+## Google Colab Tutorial
+
+1. Hello world! A simple sampling example <a href="https://colab.research.google.com/drive/1opg23nw1WNMYAnKL1w6t6oF8-xCHJcqr">
+		<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+	</a>
+   - Learn how to use the different sampling classes.
+   - Visualize their differences.
+
 ## 📢 News
 
 ### July 2025
