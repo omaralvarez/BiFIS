@@ -108,6 +108,10 @@ bifis_pixel_data = p_original[bifis.idx].reshape(bifis.img_shape)
 
 ## 📢 News
 
+### July 2025
+
+- Colab example released.
+
 ### May 2025
 
 - Initial code version published.
