@@ -7,7 +7,7 @@
 
 # 🌐 BiFIS
 
-[**Signed Distance Function-biased flow importance sampling for implicit neural compression of flow fields**]()<br/>
+[**Signed Distance Function-biased flow importance sampling for implicit neural compression of flow fields**](https://onlinelibrary.wiley.com/doi/10.1111/mice.13526)<br/>
 [Omar A. Mures](https://omaralv.com/), [Miguel Cid Montoya](https://mcidmontoya.com/)
 
 ## Usage
