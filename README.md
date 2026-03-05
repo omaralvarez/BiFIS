@@ -125,6 +125,7 @@ bifis_pixel_data = p_original[bifis.idx].reshape(bifis.img_shape)
 
 The repo is still under construction, thanks for your patience. 
 
+- [ ] Release of 3D volume sampling code.
 - [x] Release Colab example.
 - [x] Release pip package.
 - [x] Release of the sampling code.
