@@ -108,6 +108,10 @@ bifis_pixel_data = p_original[bifis.idx].reshape(bifis.img_shape)
 
 ## 📢 News
 
+### February 2026
+
+- New sampling algorithms coming soon.
+
 ### July 2025
 
 - Colab example released.
