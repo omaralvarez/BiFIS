@@ -10,6 +10,12 @@
 [**Signed Distance Function-biased flow importance sampling for implicit neural compression of flow fields**](https://onlinelibrary.wiley.com/doi/10.1111/mice.13526)<br/>
 [Omar A. Mures](https://omaralv.com/), [Miguel Cid Montoya](https://mcidmontoya.com/)
 
+## 📢 Latest News
+
+#### 🔥 **[2026.02]** New sampling algorithms coming soon!
+#### 🔥 **[2025.07]** [Colab](https://colab.research.google.com/drive/1opg23nw1WNMYAnKL1w6t6oF8-xCHJcqr) example released!
+#### 🔥 **[2025.05]** Code Released - Get Started Now! 🚀
+
 ## Usage
 
 ### Installation
@@ -105,25 +111,6 @@ bifis_pixel_data = p_original[bifis.idx].reshape(bifis.img_shape)
 	</a>
    - Learn how to use the different sampling classes.
    - Visualize their differences.
-
-## 📢 News
-
-### February 2026
-
-- New sampling algorithms coming soon.
-
-### July 2025
-
-- Colab example released.
-
-### May 2025
-
-- Initial code version published.
-- Pip package released.
-
-### March 2025
-
-- Code coming soon.
 
 ## 🎯 TODO
 
