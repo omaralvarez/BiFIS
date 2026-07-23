@@ -1,4 +1,6 @@
 <p align="center">
+	<a href='https://www.sciencedirect.com/science/article/pii/S109396872600263X/pdfft?md5=1b0dda6c0274105478148daa3b2a95f3&pid=1-s2.0-S109396872600263X-main.pdf'><img src='https://img.shields.io/badge/Paper-Elsevier-FF551D?logo=elsevier' alt='Paper' /></a>
+	<a href='https://bifis-sampling.github.io/'><img src='https://img.shields.io/badge/Project-Page-green?logo=safari&logoColor=fff' alt='Project Page' /></a>
 	<a><img src='https://img.shields.io/badge/python-3.10%2B-blueviolet' alt='Python' /></a>
 	<a><img src='https://img.shields.io/badge/code%20style-black-black' /></a>
 	<a href='https://opensource.org/license/lgpl-2-1'><img src='https://img.shields.io/badge/license-LGPLv2+-blue' /></a>
@@ -7,7 +9,7 @@
 
 # 🌐 BiFIS
 
-[**Signed Distance Function-biased flow importance sampling for implicit neural compression of flow fields**](https://onlinelibrary.wiley.com/doi/10.1111/mice.13526)<br/>
+[**Signed Distance Function-biased flow importance sampling for implicit neural compression of flow fields**](https://doi.org/10.1111/mice.13526)<br/>
 [Omar A. Mures](https://omaralv.com/), [Miguel Cid Montoya](https://mcidmontoya.com/)
 
 ## 📢 Latest News
